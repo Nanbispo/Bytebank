@@ -1,5 +1,6 @@
 package br.com.alura.bytebank.Modelos
 
+//Classe simples que herda de uma classe mãe principal -> (Funcionario)
 class Auxiliar(
     nome: String,
     cpf: String,
@@ -9,6 +10,7 @@ class Auxiliar(
     cpf = cpf,
     salario = salario
 ) {
+    /*Sobre-escrita feita para herdar uma função de bonificação!*/
     override val bonificacao: Double
-        get() = salario * 0.05 //To change initializer of created properties use File | Settings | File Templates.
+        get() = salario * 0.05
 }

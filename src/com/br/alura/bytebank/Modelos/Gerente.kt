@@ -1,5 +1,6 @@
 package br.com.alura.bytebank.Modelos
 
+/*Classe filha do funcionário GERENTE, que herda da classe PAI (funcionarioAdmin) que herda da classe MÃE (funcionario)*/
 class Gerente(
     nome: String,
     cpf: String,

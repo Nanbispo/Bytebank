@@ -4,3 +4,7 @@ import br.com.alura.bytebank.Testes.testaLacos
 fun main(){
     testaFuncionarios()
 }
+
+fun imprime(valor: Any){
+
+}

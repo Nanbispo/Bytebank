@@ -1,5 +1,7 @@
 package br.com.alura.bytebank.modelo
 
+
+/*Classe para uma propriedade da conta, no caso o endereço*/
 class Endereco(
     var logradouro: String = "",
     var numero: Int = 0,
